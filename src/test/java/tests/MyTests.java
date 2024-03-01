@@ -7,10 +7,11 @@ import org.testng.annotations.Test;
 import utils.BaseTest;
 import utils.Constants;
 import utils.pageElements;
+import static utils.Constants.disableFieldsWeb;
 
 public class MyTests extends BaseTest {
     @Test
-    public void authPopup(){
+    public void authPopupTest(){
         String urlWithCredentials = "http://" + Constants.user + ":" + Constants.password + "@" + Constants.urlAuthPopup;
         driver.get(urlWithCredentials);
 
@@ -24,5 +25,16 @@ public class MyTests extends BaseTest {
 
         Assert.assertTrue(actualSuccessMsg.contains(expectedSuccessMsg), "El mensaje de éxito no coincide.");
 
+
+
     }
+
+    @Test
+    public void disableFieldTest(){
+
+        driver.get(disableFieldsWeb);
+
+
+    }
+
 }

@@ -5,16 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1e56e22-a287-4ded-9ba9-9d5f68f135c8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/MyTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/pageElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/pageElements.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MyTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MyTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,32 +25,43 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2d3VapzZpUjMYTT5O6EFIlpFPi4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "Maven.Selenium-50-day-coding-challenge [clean].executor": "Run",
-    "Maven.Selenium-50-day-coding-challenge [compile].executor": "Run",
-    "Maven.Selenium-50-day-coding-challenge [test].executor": "Run",
-    "Maven.Selenium-50-day-coding-challenge [validate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "TestNG.AllTest.authPopup.executor": "Run",
-    "TestNG.AllTest.executor": "Run",
-    "TestNG.MyTests.authPopup.executor": "Run",
-    "TestNG.Tests.authPopup.executor": "Run",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium-50-day-coding-challenge [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium-50-day-coding-challenge [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium-50-day-coding-challenge [test].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.Selenium-50-day-coding-challenge [validate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;TestNG.AllTest.authPopup.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.AllTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MyTests.authPopup.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MyTests.authPopupTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MyTests.disableFieldTest.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.MyTests.executor&quot;: &quot;Run&quot;,
+    &quot;TestNG.Tests.authPopup.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
-    <configuration name="MyTests.authPopup" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MyTests.authPopupTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Selenium-50-day-coding-challenge" />
       <extension name="coverage">
         <pattern>
@@ -64,7 +71,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.MyTests" />
-      <option name="METHOD_NAME" value="authPopup" />
+      <option name="METHOD_NAME" value="authPopupTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -74,8 +81,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MyTests.authPopup" />
-        <item itemvalue="TestNG.AllTest.authPopup" />
+        <item itemvalue="TestNG.MyTests.authPopupTest" />
       </list>
     </recent_temporary>
   </component>
